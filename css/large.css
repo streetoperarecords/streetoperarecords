@@ -1,0 +1,91 @@
+@media screen and (min-width: 769px) {
+
+  body{
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 3px 5px 30px #bbb;
+    background-color: black
+  }
+
+
+.image {
+      float: left;
+      width: 100vh;
+      height: 100vh;
+      background-image: url("../img/bastaCheSenti.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      z-index: -100;
+}
+
+  .extDivLink {
+    float: right;
+    background-color: #999;
+    margin-left: 100vh;
+
+  }
+
+  .cantante p{
+    font-size: 4vw;
+    padding: 5%
+  }
+
+  .wrap {
+    background-color: #ccc
+  }
+
+  .wrap p{
+    font-size: 4vw;
+  }
+
+  .wrap i{
+    font-size: 5vw;
+    margin-left: 47.2%;
+  }
+
+  .wrap .fas{
+    padding-bottom: 3%
+  }
+
+  .iconSrteam{
+    height: 25vh
+  }
+
+  .iconSrteam img{
+    width: 40%;
+    margin-left: 30%;
+    padding-top: 7%;
+    opacity: 60%;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+
+  }
+
+  .socialLink{
+  clear: both;
+  }
+
+  .socialLink p{
+    font-size: 4vw;
+  }
+
+  .socialLink i{
+    font-size: 8vw;
+    margin-left: 28%;
+    padding: 5% 0 5% 0
+  }
+
+  footer p {
+    font-size: 2vw
+  }
+
+
+
+
+}
