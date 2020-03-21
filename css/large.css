@@ -67,6 +67,77 @@
 
   }
 
+  .iconSrteam:hover img{
+    opacity: 100%;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+    #link1 .iconSrteam:hover{
+      background: radial-gradient(ellipse at top left, rgba(29, 185, 84, 0.7), transparent),
+                  radial-gradient(ellipse at  bottom right , rgba(25, 20, 20, 0.7), transparent),
+                  radial-gradient(ellipse at top right, rgba(255,255,255,0.7), transparent);
+                  -webkit-transition: background 0.3s ease-in;
+                  -moz-transition: background 0.3s ease-in;
+                  -o-transition: background 0.3s ease-in;
+                  transition: background 0.3s ease-in;
+    }
+
+    #link2 .iconSrteam:hover{
+      background: radial-gradient(ellipse at top left, rgba(255, 92, 85, 0.7), transparent),
+                  radial-gradient(ellipse at bottom left, rgba(193, 82, 187, 0.7), transparent),
+                  radial-gradient(circle at  right, rgba(34, 199, 255, 0.7), rgba(34, 199, 255, 0.7), transparent);
+      -webkit-transition: background 0.3s ease-in;
+      -moz-transition: background 0.3s ease-in;
+      -o-transition: background 0.3s ease-in;
+      transition: background 0.3s ease-in;
+    }
+
+    #link3 .iconSrteam:hover{
+      background: radial-gradient(ellipse at top left, rgba(255, 153, 0,0.7), transparent),
+                  radial-gradient(ellipse at bottom right, rgba(20, 110, 180, 0.7), transparent),
+                  radial-gradient(ellipse at top right, rgba(45, 57, 72, 0.7), transparent);
+      -webkit-transition: background 0.3s ease-in;
+      -moz-transition: background 0.3s ease-in;
+      -o-transition: background 0.3s ease-in;
+      transition: background 0.3s ease-in;
+    }
+
+    #link4 .iconSrteam:hover{
+      background: radial-gradient(ellipse at bottom left, rgba(244, 82, 43,0.7), transparent),
+                  radial-gradient(ellipse at bottom right, rgba(0, 0, 0, 0.7), transparent),
+                  radial-gradient(ellipse at top left, rgba(255, 209, 25, 0.7), transparent);
+
+      -webkit-transition: background 0.3s ease-in;
+      -moz-transition: background 0.3s ease-in;
+      -o-transition: background 0.3s ease-in;
+      transition: background 0.3s ease-in;
+    }
+
+    #link5 .iconSrteam:hover{
+      background: radial-gradient(ellipse at top left, rgba(255, 92, 85, 0.7), transparent),
+                  radial-gradient(ellipse at bottom left, rgba(193, 82, 187, 0.7), transparent),
+                  radial-gradient(circle at  right, rgba(34, 199, 255, 0.7), rgba(34, 199, 255, 0.7), transparent);
+      -webkit-transition: background 0.3s ease-in;
+      -moz-transition: background 0.3s ease-in;
+      -o-transition: background 0.3s ease-in;
+      transition: background 0.3s ease-in;
+    }
+
+    #link6 .iconSrteam:hover{
+      background: radial-gradient(ellipse at bottom right, rgba(51, 51, 51, 0.7), transparent),
+                  radial-gradient(ellipse at top left, rgba(255, 20, 0, 0.7), transparent),
+
+                  radial-gradient(ellipse at top right, rgba(150, 5, 0, 0.7), transparent);
+      -webkit-transition: background 0.3s ease-in;
+      -moz-transition: background 0.3s ease-in;
+      -o-transition: background 0.3s ease-in;
+      transition: background 0.3s ease-in;
+    }
+
+
   .socialLink{
   clear: both;
   }
@@ -80,6 +151,12 @@
     margin-left: 28%;
     padding: 5% 0 5% 0
   }
+
+  .socialLink i:hover{
+          color: #fff;
+          transition: color 0.4s ease-in-out;
+
+        }
 
   footer p {
     font-size: 2vw
