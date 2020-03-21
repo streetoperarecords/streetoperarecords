@@ -17,6 +17,17 @@
       gtag('config', 'UA-161234972-2');
     </script>
 
+    <script>
+          var captureOutboundLink = function(url) {
+             ga('send', 'event', 'outbound', 'click', url, {
+               'transport': 'beacon',
+               'hitCallback': function(){document.location = url;}
+             });
+          }
+    </script>
+
+
+
     <!-- Facebook Pixel Code -->
         <script>
         !function(f,b,e,v,n,t,s)
@@ -50,6 +61,7 @@
   </head>
   <body>
 
+
     <div class="image">
 
     </div>
@@ -68,37 +80,37 @@
         <p>Listen on: </p>
         <i class="fas fa-chevron-down"></i>
       </div>
-      <a class="intDivLink" id="link1" href="https://open.spotify.com/track/31pcxsfvo1vh7NUd2BFs6o?si=AhPn7G_DTVOhlQqXuUOY-w" target="_blank">
+      <a class="intDivLink" id="link1" href="https://open.spotify.com/track/31pcxsfvo1vh7NUd2BFs6o?si=AhPn7G_DTVOhlQqXuUOY-w" target="_blank" onclick="captureOutboundLink('https://open.spotify.com/track/31pcxsfvo1vh7NUd2BFs6o?si=AhPn7G_DTVOhlQqXuUOY-w'); return false;">
         <div class="iconSrteam">
           <img src="img/spotify.png" alt="">
         </div>
       </a>
 
-      <a class="intDivLink" id="link2" href="https://music.apple.com/it/album/basta-che-senti/1500668204?i=1500668205" target="_blank">
+      <a class="intDivLink" id="link2" href="https://music.apple.com/it/album/basta-che-senti/1500668204?i=1500668205" target="_blank" onclick="captureOutboundLink('https://music.apple.com/it/album/basta-che-senti/1500668204?i=1500668205'); return false;">
         <div class="iconSrteam">
           <img src="img/appleMusic.png" alt="">
         </div>
       </a>
 
-      <a class="intDivLink" id="link3" target="_blank" href="https://music.amazon.it/albums/B085885BXH?ref=dm_sh_k6OePgoOV91NOiUa6u2lck3QO">
+      <a class="intDivLink" id="link3" target="_blank" href="https://music.amazon.it/albums/B085885BXH?ref=dm_sh_k6OePgoOV91NOiUa6u2lck3QO" onclick="captureOutboundLink('https://music.amazon.it/albums/B085885BXH?ref=dm_sh_k6OePgoOV91NOiUa6u2lck3QO'); return false;">
         <div class="iconSrteam">
           <img src="img/amazonMusic.png" alt="">
         </div>
       </a>
 
-      <a class="intDivLink" id="link6" target="_blank" href="https://www.youtube.com/watch?v=F1CKN2J1Z_M">
+      <a class="intDivLink" id="link6" target="_blank" href="https://www.youtube.com/watch?v=F1CKN2J1Z_M" onclick="captureOutboundLink('https://www.youtube.com/watch?v=F1CKN2J1Z_M'); return false;">
         <div class="iconSrteam">
           <img src="img/youTube.png" alt="">
         </div>
       </a>
 
-      <a class="intDivLink" id="link4" target="_blank" href="https://play.google.com/store/music/album?id=Bpsmly2njxbhpldhmtl4mzfyywi&tid=song-Tume6f2hxgr2qmuu6pm74ijizie&gl=IT">
+      <a class="intDivLink" id="link4" target="_blank" href="https://play.google.com/store/music/album?id=Bpsmly2njxbhpldhmtl4mzfyywi&tid=song-Tume6f2hxgr2qmuu6pm74ijizie&gl=IT" onclick="captureOutboundLink('https://play.google.com/store/music/album?id=Bpsmly2njxbhpldhmtl4mzfyywi&tid=song-Tume6f2hxgr2qmuu6pm74ijizie&gl=IT'); return false;">
         <div class="iconSrteam">
           <img src="img/googlePlayMusic.png" alt="">
         </div>
       </a>
 
-      <a class="intDivLink" id="link5" target="_blank" href="https://music.apple.com/it/album/basta-che-senti/1500668204?i=1500668205&app=itunes">
+      <a class="intDivLink" id="link5" target="_blank" href="https://music.apple.com/it/album/basta-che-senti/1500668204?i=1500668205&app=itunes" onclick="captureOutboundLink('https://music.apple.com/it/album/basta-che-senti/1500668204?i=1500668205&app=itunes'); return false;">
         <div class="iconSrteam">
           <img src="img/iTunes.png" alt="">
         </div>
